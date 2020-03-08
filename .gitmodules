@@ -4,3 +4,6 @@
 [submodule "react-ts"]
 	path = react-ts
 	url = git@github.com:qdm12/react-ts-template.git
+[submodule "node-ts"]
+	path = node-ts
+	url = git@github.com:qdm12/node-ts-template.git
