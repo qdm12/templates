@@ -1,18 +1,15 @@
 # Templates
 
 Templates repositories to use as base for repositories.
+These are shown above as Git submodules and can be accessed by clicking on them.
 
 It also contains some other useful information irrelevant to templates.
 
 ## Content
 
 - [Github steps](#github-steps)
+- [Other](#other)
 - [TODO](#TODO)
-- [Go template](go)
-- [React Typescript template](react-ts)
-- [NodeJS Typescript template](node-ts)
-- [Useful sh commands and functions](sh.md)
-- [Useful VSCode extensions](vscode.md)
 
 ## Github steps
 
@@ -64,7 +61,14 @@ It also contains some other useful information irrelevant to templates.
     git add . && git commit -m "Formatting fixes and microbadger link" && git push
     ```
 
+## Other
+
+- [Useful sh commands and functions](sh.md)
+- [Useful VSCode extensions](vscode.md)
+
 ## TODO
 
 - Add github issues/PR templates
 - Move from Travis to Github actions
+  - Use [Microscanner](https://github.com/aquasecurity/microscanner)
+- React components libary template using [Storybook](https://storybook.js.org/)
